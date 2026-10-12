@@ -1,0 +1,5 @@
+# rebuilt from the public M4 repo by src/build_dataset.py (raw text belongs to the M4 authors)
+data/dataset.csv
+__pycache__/
+*.pyc
+.DS_Store
