@@ -1,0 +1,127 @@
+DONE rq2_tfidf_output: test acc=0.8890 macroF1=0.8884
+DONE rq2_tfidf_input: test acc=0.7175 macroF1=0.7158
+DONE rq2_tfidf_both: test acc=0.9440 macroF1=0.9438
+  [rq2_cnn_output] ep1 loss=1.5062 val_acc=0.5833 val_f1=0.5176 (60s)
+  [rq2_cnn_output] ep2 loss=0.9797 val_acc=0.7103 val_f1=0.7012 (118s)
+  [rq2_cnn_output] ep3 loss=0.8404 val_acc=0.7086 val_f1=0.7038 (175s)
+  [rq2_cnn_output] ep4 loss=0.7250 val_acc=0.7580 val_f1=0.7480 (232s)
+  [rq2_cnn_output] ep5 loss=0.6427 val_acc=0.8137 val_f1=0.8158 (290s)
+  [rq2_cnn_output] ep6 loss=0.5570 val_acc=0.7981 val_f1=0.7962 (347s)
+  [rq2_cnn_output] ep7 loss=0.4852 val_acc=0.8017 val_f1=0.7985 (406s)
+DONE rq2_cnn_output: test acc=0.8008 macroF1=0.8027 epochs=7 time=410s
+  [rq2_cnn_input] ep1 loss=0.9312 val_acc=0.6876 val_f1=0.6492 (18s)
+  [rq2_cnn_input] ep2 loss=0.6675 val_acc=0.7014 val_f1=0.6981 (35s)
+  [rq2_cnn_input] ep3 loss=0.6419 val_acc=0.7126 val_f1=0.7189 (51s)
+  [rq2_cnn_input] ep4 loss=0.5771 val_acc=0.7094 val_f1=0.7041 (68s)
+  [rq2_cnn_input] ep5 loss=0.5578 val_acc=0.7126 val_f1=0.7139 (85s)
+DONE rq2_cnn_input: test acc=0.7202 macroF1=0.7250 epochs=5 time=86s
+  [rq2_cnn_both] ep1 loss=1.0707 val_acc=0.8534 val_f1=0.8553 (71s)
+  [rq2_cnn_both] ep2 loss=0.5421 val_acc=0.8708 val_f1=0.8711 (143s)
+  [rq2_cnn_both] ep3 loss=0.4497 val_acc=0.8405 val_f1=0.8467 (214s)
+  [rq2_cnn_both] ep4 loss=0.3684 val_acc=0.8783 val_f1=0.8809 (292s)
+  [rq2_cnn_both] ep5 loss=0.3191 val_acc=0.9055 val_f1=0.9060 (364s)
+  [rq2_cnn_both] ep6 loss=0.2825 val_acc=0.8890 val_f1=0.8887 (435s)
+  [rq2_cnn_both] ep7 loss=0.2321 val_acc=0.9122 val_f1=0.9125 (505s)
+  [rq2_cnn_both] ep8 loss=0.2051 val_acc=0.9002 val_f1=0.9000 (578s)
+  [rq2_cnn_both] ep9 loss=0.1778 val_acc=0.9037 val_f1=0.9049 (653s)
+DONE rq2_cnn_both: test acc=0.9051 macroF1=0.9048 epochs=9 time=660s
+DONE rq4_tfidf_no_format: test acc=0.8639 macroF1=0.8631
+  [rq4_cnn_no_format] ep1 loss=1.5786 val_acc=0.6012 val_f1=0.5837 (57s)
+  [rq4_cnn_no_format] ep2 loss=1.1122 val_acc=0.6448 val_f1=0.6529 (114s)
+  [rq4_cnn_no_format] ep3 loss=0.9738 val_acc=0.6907 val_f1=0.6967 (171s)
+  [rq4_cnn_no_format] ep4 loss=0.8886 val_acc=0.6970 val_f1=0.6970 (226s)
+  [rq4_cnn_no_format] ep5 loss=0.7877 val_acc=0.7438 val_f1=0.7467 (283s)
+  [rq4_cnn_no_format] ep6 loss=0.6940 val_acc=0.7545 val_f1=0.7554 (339s)
+  [rq4_cnn_no_format] ep7 loss=0.6232 val_acc=0.7469 val_f1=0.7540 (395s)
+  [rq4_cnn_no_format] ep8 loss=0.5500 val_acc=0.7687 val_f1=0.7725 (451s)
+  [rq4_cnn_no_format] ep9 loss=0.4691 val_acc=0.7643 val_f1=0.7663 (508s)
+  [rq4_cnn_no_format] ep10 loss=0.3882 val_acc=0.7692 val_f1=0.7644 (564s)
+DONE rq4_cnn_no_format: test acc=0.7659 macroF1=0.7671 epochs=10 time=569s
+DONE rq4_tfidf_no_punct: test acc=0.8621 macroF1=0.8613
+  [rq4_cnn_no_punct] ep1 loss=1.6316 val_acc=0.5878 val_f1=0.5732 (60s)
+  [rq4_cnn_no_punct] ep2 loss=1.2070 val_acc=0.6154 val_f1=0.6216 (120s)
+  [rq4_cnn_no_punct] ep3 loss=1.0657 val_acc=0.6141 val_f1=0.6210 (175s)
+  [rq4_cnn_no_punct] ep4 loss=0.9512 val_acc=0.6475 val_f1=0.6247 (229s)
+  [rq4_cnn_no_punct] ep5 loss=0.8728 val_acc=0.7081 val_f1=0.7053 (284s)
+  [rq4_cnn_no_punct] ep6 loss=0.7796 val_acc=0.6800 val_f1=0.6739 (338s)
+  [rq4_cnn_no_punct] ep7 loss=0.6964 val_acc=0.7103 val_f1=0.7151 (392s)
+  [rq4_cnn_no_punct] ep8 loss=0.6313 val_acc=0.7491 val_f1=0.7477 (446s)
+  [rq4_cnn_no_punct] ep9 loss=0.5393 val_acc=0.7473 val_f1=0.7489 (501s)
+  [rq4_cnn_no_punct] ep10 loss=0.4538 val_acc=0.7469 val_f1=0.7472 (556s)
+DONE rq4_cnn_no_punct: test acc=0.7511 macroF1=0.7524 epochs=10 time=560s
+DONE rq4_tfidf_lower: test acc=0.8850 macroF1=0.8842
+  [rq4_cnn_lower] ep1 loss=1.5242 val_acc=0.5860 val_f1=0.5175 (57s)
+  [rq4_cnn_lower] ep2 loss=1.0039 val_acc=0.7019 val_f1=0.6938 (115s)
+  [rq4_cnn_lower] ep3 loss=0.8788 val_acc=0.7152 val_f1=0.7094 (171s)
+  [rq4_cnn_lower] ep4 loss=0.7509 val_acc=0.7567 val_f1=0.7422 (230s)
+  [rq4_cnn_lower] ep5 loss=0.6764 val_acc=0.7861 val_f1=0.7899 (288s)
+  [rq4_cnn_lower] ep6 loss=0.5939 val_acc=0.7758 val_f1=0.7677 (345s)
+  [rq4_cnn_lower] ep7 loss=0.4939 val_acc=0.7910 val_f1=0.7898 (403s)
+DONE rq4_cnn_lower: test acc=0.7825 macroF1=0.7846 epochs=7 time=408s
+Traceback (most recent call last):
+  File "/home/claude/llm-fingerprint/src/experiments.py", line 63, in <module>
+    raise ValueError(args.rq)
+    ^^
+  File "/home/claude/llm-fingerprint/src/experiments.py", line 53, in main
+    run_nn(f"rq3_{m}_out_{held}", m, trd, vad, ted, "output", max_epochs=6 if m == "lstm" else None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/llm-fingerprint/src/train.py", line 144, in run_tfidf
+    from sklearn.feature_extraction.text import TfidfVectorizer
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/llm-fingerprint/src/train.py", line 27, in make_tokens
+    cnt = Counter(t.lower() for r in train_df["response"] for t in tokenize(r) if t[0].isalpha())
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/llm-fingerprint/src/text.py", line 64, in ablate
+    if t == "\n" or not re.match(r"[A-Za-z]", t) or t.lower() in common_words:
+                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+DONE rq3_tfidf_out_wikipedia: test acc=0.3483 macroF1=0.2947
+  [rq3_cnn_out_wikipedia] ep1 loss=1.3700 val_acc=0.7214 val_f1=0.7188 (46s)
+  [rq3_cnn_out_wikipedia] ep2 loss=0.8910 val_acc=0.7695 val_f1=0.7562 (92s)
+  [rq3_cnn_out_wikipedia] ep3 loss=0.7125 val_acc=0.8032 val_f1=0.7982 (137s)
+  [rq3_cnn_out_wikipedia] ep4 loss=0.6132 val_acc=0.8308 val_f1=0.8309 (182s)
+  [rq3_cnn_out_wikipedia] ep5 loss=0.5138 val_acc=0.8187 val_f1=0.8135 (227s)
+  [rq3_cnn_out_wikipedia] ep6 loss=0.5047 val_acc=0.7590 val_f1=0.7552 (272s)
+DONE rq3_cnn_out_wikipedia: test acc=0.3510 macroF1=0.2600 epochs=6 time=279s
+DONE rq3_tfidf_out_wikihow: test acc=0.6810 macroF1=0.6774
+  [rq3_cnn_out_wikihow] ep1 loss=1.5914 val_acc=0.6447 val_f1=0.6028 (45s)
+  [rq3_cnn_out_wikihow] ep2 loss=1.0605 val_acc=0.6835 val_f1=0.6793 (89s)
+  [rq3_cnn_out_wikihow] ep3 loss=0.8904 val_acc=0.7478 val_f1=0.7436 (134s)
+  [rq3_cnn_out_wikihow] ep4 loss=0.7545 val_acc=0.7201 val_f1=0.7132 (178s)
+  [rq3_cnn_out_wikihow] ep5 loss=0.6739 val_acc=0.7722 val_f1=0.7711 (222s)
+  [rq3_cnn_out_wikihow] ep6 loss=0.6031 val_acc=0.7877 val_f1=0.7853 (266s)
+  [rq3_cnn_out_wikihow] ep7 loss=0.5326 val_acc=0.7943 val_f1=0.7958 (310s)
+  [rq3_cnn_out_wikihow] ep8 loss=0.4523 val_acc=0.8054 val_f1=0.8072 (368s)
+  [rq3_cnn_out_wikihow] ep9 loss=0.3775 val_acc=0.8060 val_f1=0.8064 (449s)
+  [rq3_cnn_out_wikihow] ep10 loss=0.3153 val_acc=0.7882 val_f1=0.7827 (494s)
+DONE rq3_cnn_out_wikihow: test acc=0.6083 macroF1=0.5885 epochs=10 time=501s
+DONE rq3_tfidf_out_reddit: test acc=0.6820 macroF1=0.6705
+  [rq3_cnn_out_reddit] ep1 loss=1.5033 val_acc=0.6313 val_f1=0.6177 (46s)
+  [rq3_cnn_out_reddit] ep2 loss=1.0551 val_acc=0.7232 val_f1=0.7229 (91s)
+  [rq3_cnn_out_reddit] ep3 loss=0.8670 val_acc=0.7717 val_f1=0.7611 (136s)
+  [rq3_cnn_out_reddit] ep4 loss=0.7416 val_acc=0.7796 val_f1=0.7735 (180s)
+  [rq3_cnn_out_reddit] ep5 loss=0.6510 val_acc=0.8179 val_f1=0.8161 (224s)
+  [rq3_cnn_out_reddit] ep6 loss=0.5767 val_acc=0.8168 val_f1=0.8183 (269s)
+  [rq3_cnn_out_reddit] ep7 loss=0.5090 val_acc=0.8213 val_f1=0.8188 (314s)
+  [rq3_cnn_out_reddit] ep8 loss=0.4377 val_acc=0.8202 val_f1=0.8193 (359s)
+  [rq3_cnn_out_reddit] ep9 loss=0.3688 val_acc=0.8472 val_f1=0.8476 (404s)
+  [rq3_cnn_out_reddit] ep10 loss=0.3254 val_acc=0.8275 val_f1=0.8265 (448s)
+DONE rq3_cnn_out_reddit: test acc=0.6427 macroF1=0.6429 epochs=10 time=454s
+DONE rq3_tfidf_out_arxiv: test acc=0.4900 macroF1=0.4569
+  [rq3_cnn_out_arxiv] ep1 loss=1.5557 val_acc=0.6416 val_f1=0.6222 (46s)
+  [rq3_cnn_out_arxiv] ep2 loss=1.0026 val_acc=0.7280 val_f1=0.7312 (92s)
+  [rq3_cnn_out_arxiv] ep3 loss=0.8382 val_acc=0.7196 val_f1=0.7000 (137s)
+  [rq3_cnn_out_arxiv] ep4 loss=0.7688 val_acc=0.7369 val_f1=0.7270 (182s)
+DONE rq3_cnn_out_arxiv: test acc=0.5110 macroF1=0.4801 epochs=4 time=188s
+DONE rq3_tfidf_out_peerread: test acc=0.7997 macroF1=0.7912
+  [rq3_cnn_out_peerread] ep1 loss=1.5386 val_acc=0.6245 val_f1=0.6186 (47s)
+  [rq3_cnn_out_peerread] ep2 loss=1.0958 val_acc=0.6836 val_f1=0.6765 (94s)
+  [rq3_cnn_out_peerread] ep3 loss=0.9356 val_acc=0.7292 val_f1=0.7268 (140s)
+  [rq3_cnn_out_peerread] ep4 loss=0.8286 val_acc=0.7120 val_f1=0.6845 (186s)
+  [rq3_cnn_out_peerread] ep5 loss=0.7416 val_acc=0.7560 val_f1=0.7459 (233s)
+  [rq3_cnn_out_peerread] ep6 loss=0.6376 val_acc=0.7682 val_f1=0.7626 (279s)
+  [rq3_cnn_out_peerread] ep7 loss=0.5957 val_acc=0.7376 val_f1=0.7343 (325s)
+  [rq3_cnn_out_peerread] ep8 loss=0.4939 val_acc=0.7738 val_f1=0.7726 (377s)
+  [rq3_cnn_out_peerread] ep9 loss=0.4324 val_acc=0.7866 val_f1=0.7820 (423s)
+  [rq3_cnn_out_peerread] ep10 loss=0.3746 val_acc=0.7905 val_f1=0.7901 (468s)
+DONE rq3_cnn_out_peerread: test acc=0.6870 macroF1=0.6551 epochs=10 time=474s

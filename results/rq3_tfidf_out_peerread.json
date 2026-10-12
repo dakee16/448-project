@@ -1,0 +1,220 @@
+{
+ "name": "rq3_tfidf_out_peerread",
+ "model": "tfidf_lr",
+ "mode": "output",
+ "ablation": "none",
+ "train_time_s": 18.852221965789795,
+ "test": {
+  "accuracy": 0.7996666666666666,
+  "macro_f1": 0.7911825835535122,
+  "confusion": [
+   [
+    487,
+    103,
+    9,
+    0,
+    1
+   ],
+   [
+    75,
+    496,
+    25,
+    3,
+    1
+   ],
+   [
+    130,
+    130,
+    267,
+    65,
+    8
+   ],
+   [
+    5,
+    14,
+    29,
+    551,
+    1
+   ],
+   [
+    2,
+    0,
+    0,
+    0,
+    598
+   ]
+  ],
+  "per_class": {
+   "ChatGPT": {
+    "precision": 0.6967095851216023,
+    "recall": 0.8116666666666666,
+    "f1-score": 0.7498075442648191,
+    "support": 600.0
+   },
+   "GPT-3 davinci": {
+    "precision": 0.6675639300134589,
+    "recall": 0.8266666666666667,
+    "f1-score": 0.7386448250186151,
+    "support": 600.0
+   },
+   "Cohere": {
+    "precision": 0.8090909090909091,
+    "recall": 0.445,
+    "f1-score": 0.5741935483870968,
+    "support": 600.0
+   },
+   "Dolly-v2": {
+    "precision": 0.8901453957996769,
+    "recall": 0.9183333333333333,
+    "f1-score": 0.904019688269073,
+    "support": 600.0
+   },
+   "BLOOMz": {
+    "precision": 0.9819376026272578,
+    "recall": 0.9966666666666667,
+    "f1-score": 0.989247311827957,
+    "support": 600.0
+   }
+  },
+  "per_domain_acc": {
+   "peerread": 0.7996666666666666
+  }
+ },
+ "top_features": {
+  "ChatGPT": [
+   "<nl> <nl>",
+   "<nl>",
+   ". <nl>",
+   ", which",
+   "Our",
+   ", including",
+   "significant",
+   "<nl> 2",
+   "However ,",
+   "However",
+   "<nl> 3",
+   "Well ,",
+   "<nl> 1",
+   "Well",
+   "3 .",
+   "<nl> Our",
+   "One",
+   ". However",
+   ", and",
+   "One of",
+   "<nl> Part",
+   "various",
+   "2 .",
+   "including",
+   ", with"
+  ],
+  "GPT-3 davinci": [
+   "\u2019",
+   "<nl>",
+   "<nl> <nl>",
+   "an",
+   "and",
+   "-",
+   "\u2019 s",
+   "This paper",
+   "This",
+   ", <nl>",
+   ". <nl>",
+   "examines",
+   "of",
+   "the",
+   "\u201d",
+   "order to",
+   "s",
+   "is an",
+   "\u201c",
+   "order",
+   "and is",
+   ",",
+   ". It",
+   "further",
+   ". Additionally"
+  ],
+  "Cohere": [
+   ", and",
+   "We",
+   ". The",
+   "We show",
+   "a",
+   "and the",
+   ". We",
+   "The",
+   "show that",
+   "was a",
+   "How to",
+   "the",
+   "How",
+   "is a",
+   "show",
+   "<nl>",
+   "for the",
+   "We have",
+   "In the",
+   "and in",
+   "with a",
+   "that the",
+   "<nl> <nl>",
+   "not",
+   "that is"
+  ],
+  "Dolly-v2": [
+   "your",
+   "for",
+   "this paper",
+   "this",
+   "the time",
+   "a",
+   "2023",
+   "the first",
+   ":",
+   ". ,",
+   "In this",
+   "While",
+   "most",
+   ", is",
+   "famous",
+   "2019",
+   "approximately",
+   ", or",
+   ". I",
+   "likely",
+   "9 ,",
+   "2016",
+   "person",
+   "paper",
+   "Here we"
+  ],
+  "BLOOMz": [
+   ". .",
+   ";",
+   ")",
+   "(",
+   "during",
+   "No",
+   "as",
+   "by",
+   "is the",
+   "Yes",
+   "September",
+   ") .",
+   "/",
+   "at",
+   "since",
+   "The",
+   "16",
+   "The following",
+   "<nl> It",
+   "how",
+   "there",
+   ". No",
+   "within",
+   "near",
+   "after"
+  ]
+ }
+}

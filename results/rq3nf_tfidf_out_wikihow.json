@@ -1,0 +1,220 @@
+{
+ "name": "rq3nf_tfidf_out_wikihow",
+ "model": "tfidf_lr",
+ "mode": "output",
+ "ablation": "no_format",
+ "train_time_s": 19.279052734375,
+ "test": {
+  "accuracy": 0.528,
+  "macro_f1": 0.5181465019453366,
+  "confusion": [
+   [
+    104,
+    92,
+    55,
+    342,
+    7
+   ],
+   [
+    17,
+    302,
+    41,
+    237,
+    3
+   ],
+   [
+    44,
+    89,
+    270,
+    192,
+    5
+   ],
+   [
+    12,
+    93,
+    117,
+    325,
+    53
+   ],
+   [
+    0,
+    1,
+    2,
+    14,
+    583
+   ]
+  ],
+  "per_class": {
+   "ChatGPT": {
+    "precision": 0.5875706214689266,
+    "recall": 0.17333333333333334,
+    "f1-score": 0.2676962676962677,
+    "support": 600.0
+   },
+   "GPT-3 davinci": {
+    "precision": 0.5233968804159446,
+    "recall": 0.5033333333333333,
+    "f1-score": 0.5131690739167375,
+    "support": 600.0
+   },
+   "Cohere": {
+    "precision": 0.5567010309278351,
+    "recall": 0.45,
+    "f1-score": 0.4976958525345622,
+    "support": 600.0
+   },
+   "Dolly-v2": {
+    "precision": 0.2927927927927928,
+    "recall": 0.5416666666666666,
+    "f1-score": 0.38011695906432746,
+    "support": 600.0
+   },
+   "BLOOMz": {
+    "precision": 0.8955453149001537,
+    "recall": 0.9716666666666667,
+    "f1-score": 0.9320543565147882,
+    "support": 600.0
+   }
+  },
+  "per_domain_acc": {
+   "wikihow": 0.528
+  }
+ },
+ "top_features": {
+  "ChatGPT": [
+   "significant",
+   ", which",
+   "Our",
+   ". Our",
+   "However ,",
+   ", including",
+   ", and",
+   "However",
+   ". However",
+   "Well ,",
+   "Well",
+   "One",
+   ". One",
+   "One of",
+   ", with",
+   "various",
+   "In conclusion",
+   "including",
+   "conclusion ,",
+   "methodology",
+   "Overall ,",
+   "conclusion",
+   "a significant",
+   "crucial",
+   "really"
+  ],
+  "GPT-3 davinci": [
+   "This",
+   "\u2019",
+   "This paper",
+   "an",
+   "and",
+   "Additionally ,",
+   ". Additionally",
+   "Additionally",
+   "\u2019 s",
+   "of",
+   "potential",
+   "examines",
+   "provide a",
+   "\u201d",
+   "the",
+   "\u201c",
+   "and is",
+   "s",
+   "a",
+   "of the",
+   "when",
+   "authors provide",
+   "provide",
+   "This article",
+   ","
+  ],
+  "Cohere": [
+   "We",
+   ", and",
+   "We show",
+   "a",
+   ". The",
+   "the",
+   ". We",
+   "show that",
+   "was a",
+   "not",
+   "and the",
+   "which the",
+   "show",
+   "The",
+   "a new",
+   "is not",
+   "We have",
+   "In the",
+   "that the",
+   "paper addresses",
+   "We present",
+   "a member",
+   "by a",
+   "the problem",
+   "a simple"
+  ],
+  "Dolly-v2": [
+   "this",
+   ":",
+   "this paper",
+   "for",
+   "model",
+   "In this",
+   ". I",
+   "the first",
+   "paper ,",
+   "Here",
+   "2023",
+   "most",
+   "first",
+   ". Here",
+   "very",
+   "was",
+   "A",
+   ", this",
+   "the time",
+   "approximately",
+   "The model",
+   "a",
+   "apply",
+   "general",
+   "likely"
+  ],
+  "BLOOMz": [
+   ";",
+   ")",
+   "(",
+   "No",
+   "during",
+   "at",
+   "as",
+   ") .",
+   "September",
+   ". ,",
+   "is the",
+   "how",
+   "Yes",
+   "by",
+   "since",
+   "one",
+   "16",
+   "there",
+   ". .",
+   "within",
+   "/",
+   "on",
+   "or",
+   "after",
+   "near"
+  ]
+ }
+}

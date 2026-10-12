@@ -1,0 +1,26 @@
+domain,model,distinct_prompt_openings,most_common_opening
+arxiv,BLOOMz,1,Write a long abstract of a scientific paper from arXiv.org. 
+arxiv,ChatGPT,476,Generate a 150-220-word abstract for work with title: On the
+arxiv,Cohere,598,Generate an abstract for work with title: Measurement of the
+arxiv,Dolly-v2,1,Write a long abstract of a scientific paper from arXiv.org. 
+arxiv,GPT-3 davinci,578,Rephrase the abstract of an article with title 'Simulation o
+peerread,BLOOMz,4,Please write a peer review for the paper given its title. Us
+peerread,ChatGPT,3,Write a peer review by first describing what problem or ques
+peerread,Cohere,3,Write a peer review by first describing what problem or ques
+peerread,Dolly-v2,3,Write a peer review by first describing what problem or ques
+peerread,GPT-3 davinci,3,Write a peer review by first describing what problem or ques
+reddit,BLOOMz,1,Write a detailed response for the question. Use approximatel
+reddit,ChatGPT,1,"I will ask you a question. For this question, provide me mor"
+reddit,Cohere,1,Write a couple of paragraphs of at least 500 characters each
+reddit,Dolly-v2,1,Write a detailed response for the question. Use approximatel
+reddit,GPT-3 davinci,1,"I will ask you a question. For this question, provide me mor"
+wikihow,BLOOMz,2,Generate a WikiHow article content given a title and a headl
+wikihow,ChatGPT,1,"Please, generate wikihow article with length above 1000 char"
+wikihow,Cohere,1,Generate wikihow article with minimum 200 words from title '
+wikihow,Dolly-v2,1,Write a WikiHow article content given a title and a headline
+wikihow,GPT-3 davinci,1,"Please, generate wikihow article with length above 1000 char"
+wikipedia,BLOOMz,236,"Generate an abstract for a Wikipedia article with a title: """
+wikipedia,ChatGPT,600,"Write a Wikipedia article with the title ""Brunhes–Matuyama r"
+wikipedia,Cohere,600,"Write a Wikipedia article with the title ""Brunhes–Matuyama r"
+wikipedia,Dolly-v2,600,"Write a Wikipedia article with the title ""Brunhes–Matuyama r"
+wikipedia,GPT-3 davinci,600,"Write a Wikipedia article with the title ""Brunhes–Matuyama r"

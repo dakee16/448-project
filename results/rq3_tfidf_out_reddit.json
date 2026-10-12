@@ -1,0 +1,220 @@
+{
+ "name": "rq3_tfidf_out_reddit",
+ "model": "tfidf_lr",
+ "mode": "output",
+ "ablation": "none",
+ "train_time_s": 17.454522371292114,
+ "test": {
+  "accuracy": 0.682,
+  "macro_f1": 0.6704517861306009,
+  "confusion": [
+   [
+    344,
+    82,
+    97,
+    23,
+    54
+   ],
+   [
+    85,
+    414,
+    74,
+    6,
+    21
+   ],
+   [
+    83,
+    70,
+    226,
+    210,
+    11
+   ],
+   [
+    13,
+    88,
+    29,
+    469,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    7,
+    593
+   ]
+  ],
+  "per_class": {
+   "ChatGPT": {
+    "precision": 0.6552380952380953,
+    "recall": 0.5733333333333334,
+    "f1-score": 0.6115555555555555,
+    "support": 600.0
+   },
+   "GPT-3 davinci": {
+    "precision": 0.6330275229357798,
+    "recall": 0.69,
+    "f1-score": 0.6602870813397129,
+    "support": 600.0
+   },
+   "Cohere": {
+    "precision": 0.5305164319248826,
+    "recall": 0.37666666666666665,
+    "f1-score": 0.4405458089668616,
+    "support": 600.0
+   },
+   "Dolly-v2": {
+    "precision": 0.6559440559440559,
+    "recall": 0.7816666666666666,
+    "f1-score": 0.7133079847908745,
+    "support": 600.0
+   },
+   "BLOOMz": {
+    "precision": 0.8720588235294118,
+    "recall": 0.9883333333333333,
+    "f1-score": 0.9265625,
+    "support": 600.0
+   }
+  },
+  "per_domain_acc": {
+   "reddit": 0.682
+  }
+ },
+ "top_features": {
+  "ChatGPT": [
+   "<nl> <nl>",
+   "<nl>",
+   ". <nl>",
+   "Our",
+   "<nl> 2",
+   "significant",
+   "<nl> 3",
+   "<nl> 1",
+   ", including",
+   ", which",
+   "One",
+   "<nl> Our",
+   "3 .",
+   "In this",
+   ", and",
+   "However ,",
+   "One of",
+   "However",
+   "<nl> Part",
+   ", we",
+   "Part",
+   "<nl> 4",
+   "2 .",
+   "crucial",
+   "article ,"
+  ],
+  "GPT-3 davinci": [
+   "\u2019",
+   "an",
+   "This paper",
+   ", <nl>",
+   ". Additionally",
+   "Additionally ,",
+   "Additionally",
+   "and",
+   "\u2019 s",
+   "This",
+   "the",
+   "It is",
+   ",",
+   "of",
+   "examines",
+   ". It",
+   "s",
+   "provide a",
+   "potential",
+   "order to",
+   "-",
+   "order",
+   ", as",
+   ". With",
+   "is an"
+  ],
+  "Cohere": [
+   ", and",
+   "We",
+   ". The",
+   "We show",
+   "a",
+   ". We",
+   "<nl>",
+   "<nl> <nl>",
+   "show that",
+   "and the",
+   "is a",
+   "How to",
+   "The",
+   "is not",
+   "that the",
+   "show",
+   "with a",
+   "that is",
+   ", in",
+   "by a",
+   "This paper",
+   "a simple",
+   "How",
+   "in the",
+   "in which"
+  ],
+  "Dolly-v2": [
+   ". I",
+   "your",
+   "this paper",
+   "very",
+   "model",
+   "the first",
+   "for",
+   "paper ,",
+   "2023",
+   "I",
+   "this",
+   ". ,",
+   "In this",
+   ":",
+   "good",
+   "first",
+   ": 1",
+   "paper",
+   "words",
+   "2019",
+   "The model",
+   "apply",
+   "the model",
+   "high",
+   "9 ,"
+  ],
+  "BLOOMz": [
+   ". .",
+   ";",
+   ")",
+   "<nl>",
+   "(",
+   ". <nl>",
+   "during",
+   "is the",
+   "as",
+   "September",
+   "<nl> It",
+   "/",
+   "16",
+   "there",
+   "The following",
+   ") .",
+   "one",
+   "since",
+   "at",
+   "been",
+   "!",
+   "16 ,",
+   "within",
+   "by",
+   ":"
+  ]
+ }
+}

@@ -1,0 +1,5 @@
+DONE rq2_tfidf_output: test acc=0.9136 macroF1=0.9131
+DONE rq2_tfidf_input: test acc=0.7175 macroF1=0.7158
+DONE rq2_tfidf_both: test acc=0.9637 macroF1=0.9636
+  [rq2_cnn_output] ep1 loss=1.8955 val_acc=0.3757 val_f1=0.3185 (85s)
+  [rq2_cnn_output] ep2 loss=1.3769 val_acc=0.6185 val_f1=0.5994 (170s)

@@ -1,0 +1,11 @@
+  [rq4_lstm_no_format] ep1 loss=1.5027 val_acc=0.4813 val_f1=0.4338 (158s)
+  [rq4_lstm_no_format] ep2 loss=1.1568 val_acc=0.5423 val_f1=0.5275 (319s)
+  [rq4_lstm_no_format] ep3 loss=1.0435 val_acc=0.5704 val_f1=0.5487 (485s)
+  [rq4_lstm_no_format] ep4 loss=0.9406 val_acc=0.5927 val_f1=0.5816 (649s)
+  [rq4_lstm_no_format] ep5 loss=0.8181 val_acc=0.6488 val_f1=0.6413 (805s)
+  [rq4_lstm_no_format] ep6 loss=0.7339 val_acc=0.6832 val_f1=0.6831 (960s)
+  [rq4_lstm_no_format] ep7 loss=0.6371 val_acc=0.6867 val_f1=0.6835 (1122s)
+  [rq4_lstm_no_format] ep8 loss=0.5539 val_acc=0.6943 val_f1=0.6913 (1279s)
+  [rq4_lstm_no_format] ep9 loss=0.4796 val_acc=0.6996 val_f1=0.6979 (1433s)
+  [rq4_lstm_no_format] ep10 loss=0.4232 val_acc=0.7054 val_f1=0.6993 (1591s)
+DONE rq4_lstm_no_format: test acc=0.6956 macroF1=0.6860 epochs=10 time=1594s

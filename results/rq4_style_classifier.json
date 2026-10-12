@@ -1,0 +1,32 @@
+{
+ "logreg": {
+  "accuracy": 0.6875559534467324,
+  "macro_f1": 0.68500436112373
+ },
+ "random_forest": {
+  "accuracy": 0.8245299910474485,
+  "macro_f1": 0.8227890571943949
+ },
+ "permutation_importance": {
+  "ttr_all": 0.1171,
+  "newlines_per_100w": 0.1007,
+  "n_chars": 0.0819,
+  "n_words": 0.0816,
+  "blank_lines_per_100w": 0.0733,
+  "avg_word_len": 0.0548,
+  "first_person_per_100w": 0.0362,
+  "ttr_first100": 0.0306,
+  "ends_with_punct": 0.0221,
+  "commas_per_100w": 0.0153,
+  "avg_sent_len": 0.0116,
+  "upper_ratio": 0.0104,
+  "colons_per_100w": 0.009,
+  "digits_per_100w": 0.0084,
+  "list_lines_frac": 0.0063,
+  "periods_per_100w": 0.0059,
+  "qmark_excl_per_100w": 0.0054,
+  "quotes_per_100w": 0.0039,
+  "parens_per_100w": 0.0027,
+  "markdown_per_100w": 0.0014
+ }
+}
